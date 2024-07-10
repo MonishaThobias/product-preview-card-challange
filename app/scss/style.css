@@ -29,12 +29,12 @@ h3 {
   font-weight: 700;
   font-style: normal;
   color: hsl(212, 21%, 14%);
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 h1 {
-  font-size: 39px;
-  margin: 0 auto;
-  padding: 0 auto;
+  font-size: 50px;
 }
 @media (max-width: 63.9375em) {
   h1 {
@@ -49,13 +49,12 @@ h6 {
   font-weight: 500;
   font-style: normal;
   letter-spacing: 5px;
-  line-height: 0.5;
   text-transform: uppercase;
-  margin: 0.5rem auto;
 }
 
 p {
   line-height: 1.5;
+  margin: 1rem auto;
 }
 
 a,
@@ -65,7 +64,7 @@ a:hover {
 
 .container {
   width: 50rem;
-  height: 70vh;
+  height: 100%;
   margin: 5.502rem auto;
   border-radius: 10px;
   background-color: hsl(0, 0%, 100%);
@@ -77,8 +76,7 @@ a:hover {
   }
 }
 .container--pall {
-  /* padding: 1.836rem 1.914rem ; */
-  padding: 1rem 1.914rem;
+  padding: 3rem 2.664rem;
 }
 .container .product-img {
   margin: 0;
@@ -99,10 +97,10 @@ button,
 .button {
   width: 100%;
   padding: 1.248rem;
+  margin: 2.832rem auto;
   font-size: 15px;
   letter-spacing: 0.5px;
   font-weight: 700;
-  margin: 1rem auto;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -128,9 +126,6 @@ button:hover,
   }
 }
 
-.product-preview {
-  width: 50%;
-}
 @media (max-width: 63.9375em) {
   .product-preview {
     width: 90%;
@@ -140,16 +135,10 @@ button:hover,
   margin: 0;
   padding: 0;
   width: 365.688px;
-  height: 81.5%;
+  height: 100%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   transition: opacity 300ms ease-in-out;
-}
-@media (min-width: 87.5em) {
-  .product-preview .product-img img {
-    width: 398.688px;
-    height: 74.5%;
-  }
 }
 @media (max-width: 63.9375em) {
   .product-preview .product-img img {

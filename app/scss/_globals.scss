@@ -31,11 +31,11 @@ h3{
     font-weight: 700;
     font-style: normal;
     color: $Verydarkblue;
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 h1{
-    font-size: 39px;
-    margin: 0 auto;
-    padding: 0 auto;
+    font-size: 50px;
     @include breakpoint-down(medium){
         font-size: 31px;
     }
@@ -48,13 +48,12 @@ h6{
     font-weight: 500;
     font-style: normal;
     letter-spacing: 5px;
-    line-height: 0.5;
     text-transform: uppercase;
-    margin: 0.5rem auto;
    
 }
 p{
     line-height: 1.5;
+    margin: 1rem auto;
 }
 a,
 a:hover{
@@ -63,7 +62,7 @@ a:hover{
 //Spacing
 .container{
     width: 50rem;
-    height: 70vh;
+ height: 100%;
     margin:5.502rem auto;
     border-radius: 10px;
     background-color: $White;
@@ -73,8 +72,8 @@ a:hover{
         height: 100%;
     }
  &--pall{
- /* padding: 1.836rem 1.914rem ; */
- padding: 1rem 1.914rem;
+    padding: 3rem 2.664rem;
+    
  }
 
  .product-img{
@@ -98,10 +97,10 @@ button,
 .button{
     width: 100%;
     padding: 1.248rem;
+    margin:2.832rem auto;
     font-size: 15px;
     letter-spacing: .5px;
     font-weight: 700;
-    margin: 1rem auto;
 border-radius: 5px;
 border: none;
 outline: none;
