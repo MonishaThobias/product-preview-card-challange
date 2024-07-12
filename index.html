@@ -19,27 +19,27 @@
   </style>
 </head>
 <body>
-<div class="main">
-  <section class="container grid-container product-preview">
-<div class="product-img hide-for-mobile grid-item">
-  <img src="app/images/image-product-desktop.jpg" alt="Product Image">
-</div>
-<div class="product-img hide-for-desktop">
-  <img src="app/images/image-product-mobile.jpg" alt="Product Image">
-</div>
 
-<div class="product-description grid-item container--pall">
+  <main class="container grid-container product-preview" role="Product-container">
+<figure  class="product-img hide-for-mobile" role="Product-image">
+  <img src="app/images/image-product-desktop.jpg" alt="Product Image">
+</figure>
+<figure class="product-img hide-for-desktop" role="Product-image">
+  <img src="app/images/image-product-mobile.jpg" alt="Product Image">
+</figure>
+
+<section class="product-description  container--pall" role="Product-Description">
   <small>Perfume</small>
   <h1>Gabrielle Essence Eau De Parfum</h1>
   <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
     Perfumer-Creator for the House of CHANEL.</p>  
-    <div class="price-description">
-    <span class="price">$149.99</span><del>$169.99</del> 
-  </div>
+    <section class="price-description">
+    <label class="price">$149.99</label><del>$169.99</del> 
+  </section>
     <br/>
     <button class="button" type="submit" onclick="myFunction()"><span class="fa fa-shopping-cart"></span> &nbsp; Add to Cart</button>
-</div>
-  </section>
+</section>
+  </main>
   
 
   
@@ -51,11 +51,11 @@
 
   
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/MonishaThobias">Monisha</a>.
-  </div>
-</div>
+  </footer>
+
   <script src="app/js/script.js"></script>
 </body>
 </html>
