@@ -47,15 +47,12 @@ p{
     margin: 0;
     padding-bottom: 27px;
 }
-a,
-a:hover{
-    text-decoration: none;
-}
+
 //Spacing
 .container{
     width: 600px;
  height: 450px;
-   margin: 100px auto;
+   margin: 175px auto;
     border-radius: 10px;
     background-color: $White;
 @include breakpoint-up(large){
